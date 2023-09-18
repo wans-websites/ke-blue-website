@@ -7,12 +7,20 @@ import Services from "./pages/services/Services";
 import Products from "./pages/products/Products";
 import Contacts from "./pages/contacts/Contacts";
 import Footer from "./components/Footer";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [isMobileView, setIsMobileView] = useState(false);
+  useEffect(() => {
+    window.innerWidth < 992 ? setIsMobileView(true) : setIsMobileView(false);
+    window.addEventListener("resize", () => {
+      window.innerWidth < 992 ? setIsMobileView(true) : setIsMobileView(false);
+    });
+  }, []);
   return (
     <div className="App">
       <BrowserRouter>
-        <Header />
+        <Header isMobileView={isMobileView} />
         <Routes>
           <Route index path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

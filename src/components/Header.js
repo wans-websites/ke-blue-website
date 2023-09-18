@@ -1,29 +1,45 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import CallIcon from "@mui/icons-material/Call";
+import logo from "../images/logo.png";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import MenuIcon from "@mui/icons-material/Menu";
+import { Link } from "react-router-dom";
 
-export default function Header() {
+export default function Header({ isMobileView }) {
+  const [isNavMenuClicked, setIsNavMenuClicked] = useState(false);
   return (
     <header className="header">
       <div className="header-top">
-        <img className="logo" src="" alt="ke-blue logo" />
-        <div className="opening-hours">
+        <img className="logo" src={logo} alt="ke-blue logo" />
+        {isMobileView && (
+          <MenuIcon
+            className="menu-icon"
+            onClick={() =>
+              setIsNavMenuClicked((current) => (current = !current))
+            }
+          />
+        )}
+        <div className="info opening-hours">
           <AccessTimeIcon />
           <div>
             <p>Mon - Sat 9.00 - 18.00</p>
             <p>Sunday Closed</p>
           </div>
         </div>
-        <div className="email">
+        <div className="info email">
           <MailOutlineIcon />
           <div>
             <p>Email</p>
             <p>info@ke-blue.com</p>
           </div>
         </div>
-        <div className="call">
+        <div className="info call">
           <CallIcon />
           <div>
             <p>Call Us</p>
@@ -32,12 +48,60 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <nav>
-        <div>Home</div>
-        <div>About</div>
-        <div>Our Services</div>
-        <div>Our Products</div>
-        <div>Get In Touch</div>
+      <nav
+        className={`nav-options ${isNavMenuClicked && "mobile-nav-options"} ${
+          isMobileView && "mobile-view"
+        }`}
+      >
+        <Link to={"/"} className="nav-option link active">
+          Home
+        </Link>
+        <Link to={"/about"} className="nav-option link">
+          About
+        </Link>
+        <Link to={"/services"} className="nav-option link">
+          Our Services
+        </Link>
+        <Link to={"/products"} className="nav-option link">
+          Our Products
+        </Link>
+        <div className="social-media">
+          <a
+            href="https://www.google.com"
+            alt=""
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <InstagramIcon className="header-icon" />
+          </a>
+          <a
+            href="https://www.google.com"
+            alt=""
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <FacebookIcon className="header-icon" />
+          </a>
+          <a
+            href="https://www.google.com"
+            alt=""
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <TwitterIcon className="header-icon" />
+          </a>
+          <a
+            href="https://www.google.com"
+            alt=""
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <LinkedInIcon className="header-icon" />
+          </a>
+        </div>
+        <Link to={"/contacts"} className="nav-option link">
+          Get In Touch
+        </Link>
       </nav>
     </header>
   );
