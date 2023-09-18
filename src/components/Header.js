@@ -9,10 +9,13 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MenuIcon from "@mui/icons-material/Menu";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Header({ isMobileView }) {
   const [isNavMenuClicked, setIsNavMenuClicked] = useState(false);
+  const location = useLocation().pathname;
+  console.log(location);
+
   return (
     <header className="header">
       <div className="header-top">
@@ -53,16 +56,28 @@ export default function Header({ isMobileView }) {
           isMobileView && "mobile-view"
         }`}
       >
-        <Link to={"/"} className="nav-option link active">
+        <Link
+          to={"/"}
+          className={`nav-option link ${location === "/" && "active"}`}
+        >
           Home
         </Link>
-        <Link to={"/about"} className="nav-option link">
+        <Link
+          to={"/about"}
+          className={`nav-option link ${location === "/about" && "active"}`}
+        >
           About
         </Link>
-        <Link to={"/services"} className="nav-option link">
+        <Link
+          to={"/services"}
+          className={`nav-option link ${location === "/services" && "active"}`}
+        >
           Our Services
         </Link>
-        <Link to={"/products"} className="nav-option link">
+        <Link
+          to={"/products"}
+          className={`nav-option link ${location === "/products" && "active"}`}
+        >
           Our Products
         </Link>
         <div className="social-media">
@@ -99,7 +114,10 @@ export default function Header({ isMobileView }) {
             <LinkedInIcon className="header-icon" />
           </a>
         </div>
-        <Link to={"/contacts"} className="nav-option link">
+        <Link
+          to={"/contacts"}
+          className={`nav-option link ${location === "/contacts" && "active"}`}
+        >
           Get In Touch
         </Link>
       </nav>

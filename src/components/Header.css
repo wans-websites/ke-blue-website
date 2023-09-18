@@ -1,3 +1,9 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 .header-top {
   width: 100vw;
   height: 8vh;
@@ -24,7 +30,7 @@
   justify-content: space-around;
   align-items: center;
   height: 10vh;
-  background-color: #2543944b;
+  background-color: #254394a9;
 }
 .nav-options .nav-option {
   width: 120px;
@@ -37,7 +43,6 @@
   font-size: 12px;
   cursor: pointer;
   color: #e3e3e3;
-  text-shadow: 1px 2px rgb(172, 172, 172);
   transition: 0.4s;
 }
 
@@ -78,9 +83,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-}
-.nav-options.mobile-nav-options .nav-option {
-  text-shadow: 0px 0px 0px;
 }
 
 @media (max-width: 992px) {
