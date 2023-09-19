@@ -4,4 +4,63 @@
   background-position: center;
   background-size: cover;
   background-image: url(../../images/herobg.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.577);
+}
+.hero .container {
+  width: 80%;
+  height: 70%;
+  position: relative;
+  z-index: 12;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+.hero .container .tag {
+  border-left: solid 5px #78bf54;
+  background-color: #041c3780;
+  padding: 5px;
+  width: fit-content;
+}
+.hero .container h2 {
+  font-size: 48px;
+  font-weight: 700;
+  width: 80%;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+.hero .container p {
+  width: 50%;
+  margin-bottom: 3vh;
+}
+
+@media (max-width: 992px) {
+  .hero {
+    height: auto;
+  }
+
+  .hero .container {
+    width: 90vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+  }
+  .hero .container h2 {
+    width: 100%;
+    font-size: 38px;
+  }
+  .hero .container p {
+    width: 90%;
+  }
 }

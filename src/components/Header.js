@@ -14,7 +14,6 @@ import { Link, useLocation } from "react-router-dom";
 export default function Header({ isMobileView }) {
   const [isNavMenuClicked, setIsNavMenuClicked] = useState(false);
   const location = useLocation().pathname;
-  console.log(location);
 
   return (
     <header className="header">
@@ -55,6 +54,7 @@ export default function Header({ isMobileView }) {
         className={`nav-options ${isNavMenuClicked && "mobile-nav-options"} ${
           isMobileView && "mobile-view"
         }`}
+        onClick={() => setIsNavMenuClicked(false)}
       >
         <Link
           to={"/"}

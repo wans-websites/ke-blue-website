@@ -18,3 +18,13 @@ code {
 .link {
   text-decoration: none;
 }
+.section-btn {
+  background-color: #78bf54;
+  width: 130px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  cursor: pointer;
+}
