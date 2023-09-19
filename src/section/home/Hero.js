@@ -5,7 +5,9 @@ export default function Hero() {
   return (
     <div className="hero">
       <div className="container">
-        <div className="tag">Eco Friendly Products</div>
+        <div className="section-tag">
+          <h1>Eco Friendly Products</h1>
+        </div>
         <h2>
           We are the largest AdBlue producers and distributors based in Kenya
         </h2>

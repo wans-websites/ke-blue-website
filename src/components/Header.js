@@ -28,21 +28,21 @@ export default function Header({ isMobileView }) {
           />
         )}
         <div className="info opening-hours">
-          <AccessTimeIcon />
+          <AccessTimeIcon className="top-header-icon" />
           <div>
             <p>Mon - Sat 9.00 - 18.00</p>
             <p>Sunday Closed</p>
           </div>
         </div>
         <div className="info email">
-          <MailOutlineIcon />
+          <MailOutlineIcon className="top-header-icon" />
           <div>
             <p>Email</p>
             <p>info@ke-blue.com</p>
           </div>
         </div>
         <div className="info call">
-          <CallIcon />
+          <CallIcon className="top-header-icon" />
           <div>
             <p>Call Us</p>
             <p>+254-704-007-333</p>

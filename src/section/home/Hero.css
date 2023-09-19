@@ -28,12 +28,7 @@
   flex-direction: column;
   color: #fff;
 }
-.hero .container .tag {
-  border-left: solid 5px #78bf54;
-  background-color: #041c3780;
-  padding: 5px;
-  width: fit-content;
-}
+
 .hero .container h2 {
   font-size: 48px;
   font-weight: 700;

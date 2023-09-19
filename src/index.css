@@ -28,3 +28,17 @@ code {
   color: #000;
   cursor: pointer;
 }
+.section-tag h1 {
+  border-left: solid 5px #78bf54;
+  background-color: #041c3780;
+  padding: 5px;
+  width: fit-content;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+.section-tag h2 {
+  color: #091242;
+  font-size: 42px;
+  margin-top: 5vh;
+}

@@ -1,0 +1,74 @@
+.what-we-do {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.what-we-do .container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+.what-we-do .container .section-tag {
+  width: 40%;
+}
+.what-we-do .container .content {
+  width: 60%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 40%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5%;
+}
+.what-we-do .container .work {
+  display: flex;
+  align-items: center;
+}
+.what-we-do .container .work .work-icon {
+  color: #78bf54;
+  font-size: 32px;
+}
+
+.what-we-do .container .work .detail {
+  margin-top: 2vh;
+  color: #666c89;
+}
+.what-we-do .container .description {
+  margin-left: 20px;
+}
+
+@media (max-width: 992px) {
+  .what-we-do {
+    height: auto;
+  }
+  .what-we-do .container {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+  .what-we-do .container .section-tag {
+    width: 90%;
+    height: auto;
+    margin-bottom: 2vh;
+    text-align: center;
+  }
+  .what-we-do .container .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .what-we-do .container .work {
+    margin-bottom: 5vh;
+  }
+  .what-we-do .container .work .detail {
+    margin-top: 1vh;
+  }
+}

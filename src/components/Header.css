@@ -22,6 +22,9 @@ header {
   align-items: center;
   font-size: 12px;
 }
+.header-top .info .top-header-icon {
+  color: #78bf54;
+}
 .header-top .info > div {
   margin-left: 10px;
 }
