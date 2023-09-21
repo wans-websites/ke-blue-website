@@ -1,0 +1,99 @@
+.testimonial {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial .container {
+  width: 80%;
+  height: 80%;
+}
+.testimonial .container .content {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.testimonial .container .content > div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.testimonial .container .content > div:nth-child(1) {
+  background-color: #f4f4f4;
+}
+.testimonial .container .content > div:nth-child(2) {
+  background-color: #254294;
+  color: #fff;
+}
+.testimonial .container .content > div .container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.testimonial .container .content > div .container .testimonial-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonial .container .content > div .container .testimonial-header .profile {
+  display: flex;
+  align-items: center;
+}
+.testimonial
+  .container
+  .content
+  > div
+  .container
+  .testimonial-header
+  .profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: solid 1px;
+  margin-right: 10px;
+}
+.testimonial
+  .container
+  .content
+  > div
+  .container
+  .testimonial-header
+  .speech-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #78bf54 !important;
+}
+.testimonial .container .content > div .container .stars .star {
+  color: #78bf54;
+}
+
+@media (max-width: 992px) {
+  .testimonial .container .content {
+    flex-direction: column;
+    height: auto;
+  }
+  .testimonial .container .content > div {
+    width: 100%;
+    height: auto;
+  }
+  .testimonial .container .content > div .container {
+    width: 90%;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+  }
+  .testimonial .container .content > div .container .speech {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+}
