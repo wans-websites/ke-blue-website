@@ -61,12 +61,15 @@
 @media (max-width: 992px) {
   .why-us {
     height: auto;
+    margin-bottom: 10vh;
+  }
+  .why-us .container {
+    height: auto;
   }
   .why-us .container .content {
     width: 80vw;
     height: auto;
     flex-direction: column;
-    margin-top: 30vh;
   }
   .why-us .container .content .left {
     width: 100%;

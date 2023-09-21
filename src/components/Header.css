@@ -1,5 +1,5 @@
 header {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -29,6 +29,11 @@ header {
   margin-left: 10px;
 }
 .nav-options {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1999;
   width: 100vw;
   display: flex;
   justify-content: space-around;

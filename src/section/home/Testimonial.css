@@ -79,6 +79,12 @@
 }
 
 @media (max-width: 992px) {
+  .testimonial {
+    height: auto;
+  }
+  .testimonial .container {
+    height: auto;
+  }
   .testimonial .container .content {
     flex-direction: column;
     height: auto;
