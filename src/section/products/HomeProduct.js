@@ -9,6 +9,7 @@ export default function HomeProduct() {
           <h4>Ad blue ...</h4>
         </div>
       </div>
+      <div className="section-btn">Order Now</div>
     </section>
   );
 }

@@ -1,6 +1,14 @@
 import React from "react";
+import PageHero from "../../components/PageHero";
 import "./Products.css";
+import HomeProduct from "../../section/products/HomeProduct";
+import bgimage from "../../images/truck.jpg";
 
 export default function Products() {
-  return <div className="products">Products</div>;
+  return (
+    <div className="products">
+      <PageHero title={"Product"} subtitle={"Ke-Blue"} bgImage={bgimage} />
+      <HomeProduct />
+    </div>
+  );
 }

@@ -1,8 +1,10 @@
 .home-product {
-  height: 100vh;
+  height: 80vh;
   background: linear-gradient(to bottom, white 50%, #78bf54 50%);
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
   align-items: center;
 }
 .home-product .product {
@@ -12,6 +14,8 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #000;
 }
 .home-product .product::before {
   position: absolute;
@@ -19,6 +23,8 @@
   top: 0;
   left: 0;
   right: 0;
+  border-radius: 5px;
+
   bottom: 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.052), rgb(0, 0, 0));
 }
@@ -35,4 +41,8 @@
 }
 .home-product .product .product-detail h4 {
   color: #78bf54;
+}
+.home-product .section-btn {
+  background-color: #254294;
+  color: #fff;
 }

@@ -27,6 +27,7 @@ code {
   align-items: center;
   color: #000;
   cursor: pointer;
+  border-radius: 5px;
 }
 .section-tag h1 {
   border-left: solid 5px #78bf54;
