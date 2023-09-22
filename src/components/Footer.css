@@ -6,6 +6,7 @@ footer {
   color: #f5f5f5;
   align-items: center;
   flex-direction: column;
+  overflow-x: hidden;
 }
 footer h3 {
   text-transform: uppercase;
@@ -160,5 +161,9 @@ footer .copyright a {
   footer .container .third .btns .social-medias {
     margin-top: 2vh;
     width: 100%;
+  }
+  footer .copyright {
+    flex-direction: column;
+    padding: 10px;
   }
 }

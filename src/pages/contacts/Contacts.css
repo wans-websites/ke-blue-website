@@ -1,0 +1,140 @@
+.contacts {
+  width: 100vw;
+  height: 100vh;
+  background-color: #254294;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.contacts .container {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.contacts .container .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70%;
+}
+.contacts .container .content .section-tag h1 {
+  color: #fff;
+}
+.contacts .container .content .section-tag h2 {
+  color: #fff;
+}
+.contacts .container .content .left {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contacts .container .content .left .contact {
+  display: flex;
+  align-items: center;
+}
+.contacts .container .content .left .contact .circle {
+  border: solid 1px #78bf54;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.contacts .container .content .right {
+  width: 60%;
+  height: 100%;
+}
+.contacts .container .content .right form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: inherit;
+  width: 100%;
+}
+.contacts .container .content .right form > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.contacts .container .content .right form > div > input {
+  width: 50%;
+  padding: 10px;
+  height: 20px;
+  border: solid 1px gray;
+  color: #fff;
+  outline: none;
+}
+.contacts .container .content .right form textarea {
+  height: 20vh;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+.contacts .container .content .right .section-btn {
+  border: none;
+  margin-top: 2vh;
+}
+.contacts .contact-footer {
+  display: flex;
+  align-items: center;
+}
+.contacts .contact-footer div {
+  width: 20vw;
+  height: 25vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../images/herobg.jpg);
+}
+
+@media (max-width: 992px) {
+  .contacts {
+    height: auto;
+  }
+  .contacts .container .content {
+    flex-direction: column;
+    margin-top: 10vh;
+  }
+  .contacts .container .content .left {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+  .contacts .container .content .left > p {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  .contacts .container .content .left .contact {
+    margin-top: 3vh;
+  }
+  .contacts .container .content .right {
+    width: 100%;
+    height: auto;
+  }
+  .contacts .container .content .right div {
+    margin-bottom: 3vh;
+  }
+  .contacts .contact-footer {
+    display: none;
+  }
+  .contacts {
+    padding-bottom: 10vh;
+    margin-bottom: -10vh;
+  }
+}
+@media (max-width: 458px) {
+  .contacts .container .content .right form > div {
+    flex-direction: column;
+  }
+  .contacts .container .content .right form > div > input {
+    width: 100%;
+  }
+}

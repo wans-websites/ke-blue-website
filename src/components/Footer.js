@@ -84,10 +84,17 @@ export default function Footer() {
         </div>
       </div>
       <div className="copyright">
-        Copyright © keblue | Designed by
-        <a href="https://www.wansenziroz.com" target={"_blank"} rel="noreferer">
-          wansenziroz.
-        </a>
+        <p>Copyright © keblue </p> |{" "}
+        <p>
+          Designed by
+          <a
+            href="https://www.wansenziroz.com"
+            target={"_blank"}
+            rel="noreferer"
+          >
+            wansenziroz.
+          </a>
+        </p>
       </div>
     </footer>
   );
