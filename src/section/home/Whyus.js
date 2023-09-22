@@ -12,28 +12,31 @@ export default function Whyus() {
           <div className="left">
             <div className="section-tag">
               <h1>Why us</h1>
-              <h2>We provide full range global logistics solution</h2>
+              <h2>Your Trusted Partner in Emission Reduction</h2>
             </div>
             <p>
-              Leverage agile frameworks to provide a robust synopsis for
-              strategy foster collaborative thinking to further the overall
-              value proposition.
+              At KeBlue ECO Products, our journey has been marked by a steadfast
+              dedication to excellence and an unswerving commitment to building
+              a sustainable future.
             </p>
             <p>
-              Organically grow the holistic world view of disruptive innovation
-              via workplace diversity and empowerment.
+              Over the years, we have not merely earned a reputation as the
+              foremost provider of AdBlue solutions in Kenya; we have forged
+              lasting relationships with our valued clients based on trust,
+              quality, and an unwavering passion for environmental
+              responsibility.
             </p>
             <div className="advantage">
               <div className="icon-div">
                 <MarkunreadMailboxIcon className="icon" />
               </div>
-              <h3>Delivery on Time</h3>
+              <h3>Unparalleled Expertise</h3>
             </div>
             <div className="advantage">
               <div className="icon-div">
                 <MoneyIcon className="icon" />
               </div>
-              <h3>Optimized Travel Cost</h3>
+              <h3>Environmental Responsibility</h3>
             </div>
           </div>
           <div className="right"></div>

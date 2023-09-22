@@ -11,46 +11,49 @@ export default function Whatwedo() {
       <div className="container">
         <div className="section-tag">
           <h1>What We Do</h1>
-          <h2>Safe & Reliable Cargo Solutions</h2>
+          <h2>Our Commitment to Emission Reduction</h2>
         </div>
         <div className="content">
           <div className="work">
             <SailingIcon className="work-icon" />
             <div className="description">
-              <div className="title">Sea Transport Services</div>
+              <div className="title">AdBlue Production and Distribution</div>
               <div className="detail">
-                Following the quality of our service thus having gained trust of
-                our many clients.
+                We manufacture high-quality AdBlue solutions that effectively
+                reduce NOx emissions from diesel engines.
               </div>
             </div>
           </div>
           <div className="work">
             <FlightTakeoffIcon className="work-icon" />
             <div className="description">
-              <div className="title">Air Fright Services</div>
+              <div className="title">Environmental Advocacy</div>
               <div className="detail">
-                Following the quality of our service thus having gained trust of
-                our many clients.
+                KeBlue actively participates in initiatives and campaigns to
+                raise awareness about emissions reduction and environmental
+                sustainability.
               </div>
             </div>
           </div>
           <div className="work">
             <WarehouseIcon className="work-icon" />
             <div className="description">
-              <div className="title">Warehousing Services</div>
+              <div className="title">Customized Solutions</div>
               <div className="detail">
-                Following the quality of our service thus having gained trust of
-                our many clients.
+                Whether you operate a small fleet or a large industrial
+                facility, we have the expertise to provide the right solution
+                for you.
               </div>
             </div>
           </div>
           <div className="work">
             <LocalShippingIcon className="work-icon" />
             <div className="description">
-              <div className="title">Local Shipping Services</div>
+              <div className="title">Technical Expertise</div>
               <div className="detail">
-                Following the quality of our service thus having gained trust of
-                our many clients.
+                We offer consultation services and guidance on the proper use of
+                AdBlue, ensuring that your diesel engines run efficiently and
+                sustainably.
               </div>
             </div>
           </div>

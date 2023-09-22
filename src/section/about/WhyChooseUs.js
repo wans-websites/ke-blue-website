@@ -9,40 +9,40 @@ export default function WhyChooseUs() {
         <div className="right">
           <div className="section-tag">
             <h1>Why Choose Us</h1>
-            <h2>We create opportunity to reach potential</h2>
+            <h2>Elevating Your Commitment to Sustainability</h2>
           </div>
           <p>
-            Leverage agile frameworks to provide a robust synopsis for strategy
-            foster collaborative thinking to further the overall value
-            proposition.
+            When it comes to reducing emissions and embracing eco-conscious
+            solutions, there are compelling reasons to choose KeBlue ECO
+            Products as your trusted partner:
           </p>
           <div className="packages">
             <div>
               <div className="package">
                 <div className="icon-circle"></div>
-                <p>Safe Package</p>
+                <p>Proven Excellence</p>
               </div>
               <div className="package">
                 <div className="icon-circle"></div>
-                <p>Safe Package</p>
+                <p>Expertise</p>
               </div>
               <div className="package">
                 <div className="icon-circle"></div>
-                <p>Safe Package</p>
+                <p>Customized Solutions</p>
               </div>
             </div>
             <div>
               <div className="package">
                 <div className="icon-circle"></div>
-                <p>Safe Package</p>
+                <p>Environmental Responsibility</p>
               </div>
               <div className="package">
                 <div className="icon-circle"></div>
-                <p>Safe Package</p>
+                <p>Innovation</p>
               </div>
               <div className="package">
                 <div className="icon-circle"></div>
-                <p>Safe Package</p>
+                <p>Comprehensive Support</p>
               </div>
             </div>
           </div>

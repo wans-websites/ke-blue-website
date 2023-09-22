@@ -12,7 +12,7 @@ export default function Contacts() {
         subtitle="Get In Touch With Us"
         bgImage={bgimg}
       />
-      <div className="contacts">
+      <div className="page-contacts">
         <div className="container">
           <div className="content">
             <div className="left">
