@@ -1,0 +1,87 @@
+.why-choose-us {
+  margin-bottom: 10vh;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #254294 50%, #f4f4f4 50%);
+}
+.why-choose-us .container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.why-choose-us .container .image {
+  width: 60%;
+  height: 100%;
+  background-image: url(../../images/herobg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.why-choose-us .container .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 35%;
+}
+.why-choose-us .container .right .packages {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.why-choose-us .container .right .packages > div .package {
+  display: flex;
+  align-items: center;
+  margin-top: 2vh;
+}
+.why-choose-us .container .right .packages > div .package .icon-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #78bf54;
+  margin-right: 10px;
+}
+.why-choose-us .container .right .packages > div .package .icon-circle .icon {
+  width: 20px;
+}
+.why-choose-us .container .right .packages > div .package p {
+  text-transform: capitalize;
+}
+
+@media (max-width: 992px) {
+  .why-choose-us {
+    height: auto;
+    background: #f4f4f4;
+    padding-bottom: 10vh;
+    margin-bottom: -10vh;
+  }
+  .why-choose-us .container {
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+  }
+  .why-choose-us .container .image {
+    width: 100%;
+    height: 50vh;
+  }
+  .why-choose-us .container .right {
+    height: auto;
+    width: 100%;
+  }
+  .why-choose-us .container .right > p {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+}
+@media (max-width: 458px) {
+  .why-choose-us .container .right .packages {
+    flex-direction: column;
+  }
+  .why-choose-us .container .right .packages > div .package {
+    justify-content: space-evenly;
+    width: 90vw;
+  }
+}

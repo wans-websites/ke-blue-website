@@ -1,0 +1,25 @@
+.page-hero {
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: -10vh;
+}
+.page-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, #254294, #25439410);
+}
+.page-hero .section-tag {
+  margin-left: 10vw;
+  z-index: 1;
+}
+.page-hero .section-tag h2 {
+  color: #fff;
+}
