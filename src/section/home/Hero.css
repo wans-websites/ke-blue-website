@@ -45,6 +45,7 @@
 @media (max-width: 992px) {
   .hero {
     height: auto;
+    margin-top: 0;
   }
 
   .hero .container {
