@@ -28,7 +28,7 @@ export default function Header({ isMobileView }) {
               }
             />
           )}
-          <div className="info opening-hours">
+          {/* <div className="info opening-hours">
             <AccessTimeIcon className="top-header-icon" />
             <div>
               <p>Mon - Sat 9.00 - 18.00</p>
@@ -49,7 +49,7 @@ export default function Header({ isMobileView }) {
               <p>+254-704-007-333</p>
               <p>+254-704-576-165</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </header>
       <nav
@@ -82,7 +82,7 @@ export default function Header({ isMobileView }) {
         >
           Our Products
         </Link>
-        <div className="social-media">
+        {/* <div className="social-media">
           <a
             href="https://www.google.com"
             alt=""
@@ -115,7 +115,7 @@ export default function Header({ isMobileView }) {
           >
             <LinkedInIcon className="header-icon" />
           </a>
-        </div>
+        </div> */}
         <Link
           to={"/contacts"}
           className={`nav-option link ${location === "/contacts" && "active"}`}
