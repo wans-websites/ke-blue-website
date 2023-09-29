@@ -2,6 +2,7 @@
   height: 50vh;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   position: relative;
@@ -14,7 +15,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to right, #254294, #25439410);
+  background: linear-gradient(to right, #254394c0, #25439410);
 }
 .page-hero .section-tag {
   margin-left: 10vw;

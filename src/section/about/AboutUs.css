@@ -1,5 +1,5 @@
 .about-us {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,10 +13,11 @@
 }
 .about-us .container .left {
   width: 50%;
-  height: 100%;
-  background-image: url(../../images/truck.jpg);
+  height: 70%;
+  background-image: url(../../images/about.jpeg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .about-us .container .right {
   height: 100%;

@@ -94,7 +94,18 @@
   height: 25vh;
   background-position: center;
   background-size: cover;
-  background-image: url(../../images/herobg.jpg);
+}
+.page-contacts .contact-footer div:nth-child(1) {
+  background-image: url(../../images/flag.jpeg);
+}
+.page-contacts .contact-footer div:nth-child(2) {
+  background-image: url(../../images/product.jpeg);
+}
+.page-contacts .contact-footer div:nth-child(3) {
+  background-image: url(../../images/whychoose.jpeg);
+}
+.page-contacts .contact-footer div:nth-child(4) {
+  background-image: url(../../images/producthero.jpeg);
 }
 
 @media (max-width: 992px) {

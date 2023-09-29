@@ -2,7 +2,7 @@ import React from "react";
 import PageHero from "../../components/PageHero";
 import "./Products.css";
 import HomeProduct from "../../section/products/HomeProduct";
-import bgimage from "../../images/truck.jpg";
+import bgimage from "../../images/producthero.jpeg";
 
 export default function Products() {
   return (

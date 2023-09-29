@@ -2,7 +2,7 @@ import React from "react";
 import PageHero from "../../components/PageHero";
 import "./Services.css";
 import TimeToLeaveIcon from "@mui/icons-material/TimeToLeave";
-import bgimg from "../../images/truck.jpg";
+import bgimg from "../../images/serviceshero.jpeg";
 
 export default function Services() {
   return (

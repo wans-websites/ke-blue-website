@@ -7,7 +7,7 @@
   background: linear-gradient(to right, #254294 50%, #f4f4f4 50%);
 }
 .why-choose-us .container {
-  width: 80%;
+  width: 90%;
   height: 80%;
   display: flex;
   align-items: center;
@@ -16,7 +16,7 @@
 .why-choose-us .container .image {
   width: 60%;
   height: 100%;
-  background-image: url(../../images/herobg.jpg);
+  background-image: url(../../images/whychoose.jpeg);
   background-position: center;
   background-size: cover;
 }

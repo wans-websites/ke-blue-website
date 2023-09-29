@@ -1,6 +1,7 @@
 .why-us {
   width: 100vw;
   height: 85vh;
+  margin-bottom: 10vh;
 }
 .why-us .image {
   width: 100vw !important;
@@ -17,8 +18,8 @@
   align-items: center;
 }
 .why-us .container .content {
-  width: 70vw;
-  height: 60vh;
+  width: 80vw;
+  height: auto;
   background-color: #fff;
   margin-top: -30vh;
   padding: 20px;
@@ -29,15 +30,15 @@
 }
 .why-us .container .content .left {
   width: 50%;
-  height: 100%;
+  height: inherit;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .why-us .container .content .right {
   width: 50%;
-  height: 100%;
-  background-image: url(../../images/herobg.jpg);
+  height: 60vh;
+  background-image: url(../../images/flag.jpeg);
   background-position: center;
   background-size: cover;
 }

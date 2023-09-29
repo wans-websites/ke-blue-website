@@ -3,7 +3,7 @@ import "./Header.css";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import CallIcon from "@mui/icons-material/Call";
-import logo from "../images/logo.png";
+import logo from "../images/ke-blue-no-logo.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
