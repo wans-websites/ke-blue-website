@@ -74,13 +74,21 @@ export default function Header({ isMobileView }) {
           to={"/services"}
           className={`nav-option link ${location === "/services" && "active"}`}
         >
-          Our Services
+          Services
+        </Link>
+        <Link
+          to={"/activities"}
+          className={`nav-option link ${
+            location === "/activities" && "active"
+          }`}
+        >
+          Activities
         </Link>
         <Link
           to={"/products"}
           className={`nav-option link ${location === "/products" && "active"}`}
         >
-          Our Products
+          Products
         </Link>
         {/* <div className="social-media">
           <a

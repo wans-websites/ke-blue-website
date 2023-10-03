@@ -96,13 +96,13 @@
   background-size: cover;
 }
 .page-contacts .contact-footer div:nth-child(1) {
-  background-image: url(../../images/flag.jpeg);
+  background-image: url(../../images/img4.jpeg);
 }
 .page-contacts .contact-footer div:nth-child(2) {
-  background-image: url(../../images/product.jpeg);
+  background-image: url(../../images/flag.jpeg);
 }
 .page-contacts .contact-footer div:nth-child(3) {
-  background-image: url(../../images/whychoose.jpeg);
+  background-image: url(../../images/img1.jpeg);
 }
 .page-contacts .contact-footer div:nth-child(4) {
   background-image: url(../../images/producthero.jpeg);

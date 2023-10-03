@@ -6,6 +6,7 @@ import About from "./pages/about/About";
 import Services from "./pages/services/Services";
 import Products from "./pages/products/Products";
 import Contacts from "./pages/contacts/Contacts";
+import Activities from "./pages/activities/Activities";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 
@@ -25,6 +26,7 @@ function App() {
           <Route index path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/activities" element={<Activities />} />
           <Route path="/products" element={<Products />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>

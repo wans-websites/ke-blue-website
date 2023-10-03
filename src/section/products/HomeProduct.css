@@ -46,3 +46,44 @@
   background-color: #254294;
   color: #fff;
 }
+
+.home-product .right {
+  width: 80vw;
+  height: 50vh;
+  background-color: #254294;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+}
+.home-product .right form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: inherit;
+  width: 100%;
+}
+.home-product .right form > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.home-product .right form > div > input {
+  width: 50%;
+  padding: 10px;
+  height: 20px;
+  border: solid 1px gray;
+  color: #fff;
+  outline: none;
+}
+.home-product .right form textarea {
+  height: 20vh;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+.home-product .right .section-btn {
+  border: none;
+  margin-top: 2vh;
+  background-color: #78bf54;
+  color: #fff;
+}
