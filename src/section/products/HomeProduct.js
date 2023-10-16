@@ -1,73 +1,35 @@
-import React, { useState } from "react";
-import emailjs from "emailjs-com"; // Import the emailjs library
+import React from "react";
 import "./HomeProduct.css";
 
 export default function HomeProduct() {
-  const [showOrderForm, setShowOrderForm] = useState(false);
-  const [quantity, setQuantity] = useState("");
-  const [name, setName] = useState("");
-  const [contact, setContact] = useState("");
-  const [address, setAddress] = useState("");
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const formData = { quantity, name, contact, address };
-
-    // Configure your emailjs service and template IDs
-    const serviceID = "service_trqami1"; // Replace with your EmailJS service ID
-    const templateID = "template_o39nr3s"; // Replace with your EmailJS template ID
-
-    try {
-      await emailjs.send(serviceID, templateID, formData);
-      console.log("Email sent successfully!");
-
-      // Clear form fields and hide the form
-      setQuantity("");
-      setName("");
-      setContact("");
-      setAddress("");
-    } catch (error) {
-      console.error("Error sending email:", error);
-    } finally {
-      setShowOrderForm(false);
-    }
-  };
+  const emailBody =
+    "Dear Ke-blue\n\nI am <Your Full Name>, and I am interested in placing an order for <no. of bottles> bottles of <bottle size>-liter AdBlue. My current location is <building/estate>,<road>, <location>, <county>, <country>. You can reach me via phone at <include country code> or by email at <your email>.\n\nWarm regards.";
+  const recipientEmail = "info@ke-blue.com";
 
   return (
     <section className="home-product">
-      <div className="product">
-        <div className="product-detail">
-          <h3>Ke-blue</h3>
-          <h4>Ad blue ...</h4>
+      <div className="products">
+        <div className="product">
+          <div className="product-detail">
+            <h3>Ke-blue</h3>
+            <h4>1 litre Ad blue ...</h4>
+          </div>
+        </div>
+        <div className="product">
+          <div className="product-detail">
+            <h3>Ke-blue</h3>
+            <h4>2 litres Ad blue ...</h4>
+          </div>
         </div>
       </div>
-      <div className="section-btn" onClick={() => setShowOrderForm(true)}>
+      <a
+        href={`mailto:${recipientEmail}?subject=Order Request&body=${encodeURIComponent(
+          emailBody
+        )}`}
+        className="section-btn"
+      >
         Order Now
-      </div>
-
-      {showOrderForm && (
-        <div className="right">
-          <form>
-            <div>
-              <input placeholder="Your Name" />
-              <input placeholder="Email" />
-            </div>
-            <div>
-              <input placeholder="Phone Number" />
-              <input placeholder="City" />
-            </div>
-            <div>
-              <input placeholder="Quantity" />
-              <input placeholder="Size" />
-            </div>
-            <input
-              type={"submit"}
-              value="Submit Message"
-              className="section-btn"
-            />
-          </form>
-        </div>
-      )}
+      </a>
     </section>
   );
 }

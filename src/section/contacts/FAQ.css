@@ -1,0 +1,21 @@
+.faq {
+  padding: 10px;
+  width: 100%;
+}
+.faq-item {
+  /* height: 20px; */
+  /* background-color: red; */
+  margin: 5px;
+  padding: 10px;
+  transition: 0.5s;
+}
+.faq-question {
+  font-size: 20px;
+  font-weight: 600;
+  color: #254294;
+  border-bottom: solid 1px rgb(139, 139, 139);
+  cursor: pointer;
+}
+.faq-answer {
+  padding: 5px;
+}

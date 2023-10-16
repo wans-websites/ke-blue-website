@@ -3,8 +3,13 @@ import "./Contacts.css";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import PageHero from "../../components/PageHero";
 import bgimg from "../../images/truck.jpg";
+import FAQ from "../../section/contacts/FAQ";
 
 export default function Contacts() {
+  const emailBody =
+    "Dear Ke-blue\n\nI am <Your Full Name>, and I am interested in placing an order for <no. of bottles> bottles of <bottle size>-liter AdBlue. My current location is <building/estate>,<road>, <location>, <county>, <country>. You can reach me via phone at <include country code> or by email at <your email>.\n\nWarm regards.";
+  const recipientEmail = "info@ke-blue.com";
+
   return (
     <>
       <PageHero
@@ -39,37 +44,17 @@ export default function Contacts() {
                   <MailOutlineIcon className="icon" />
                 </div>
                 <div>
-                  <p>Email:</p>
-                  <p>info@ke-blue.com</p>
-                </div>
-              </div>
-              <div className="contact">
-                <div className="circle">
-                  <MailOutlineIcon className="icon" />
-                </div>
-                <div>
-                  <p>Email:</p>
-                  <p>info@ke-blue.com</p>
+                  <p>Phone:</p>
+                  <p>+254-704-007-333</p>
+                  <p>+254-704-576-165</p>
                 </div>
               </div>
             </div>
             <div className="right">
-              <form>
-                <div>
-                  <input placeholder="Your Name" />
-                  <input placeholder="Email" />
-                </div>
-                <div>
-                  <input placeholder="Phone Number" />
-                  <input placeholder="City" />
-                </div>
-                <textarea placeholder="Your Message" />
-                <input
-                  type={"submit"}
-                  value="Submit Message"
-                  className="section-btn"
-                />
-              </form>
+              <FAQ />
+              <a href={`mailto:${recipientEmail}`} className="section-btn">
+                Email Us
+              </a>
             </div>
           </div>
           <div className="contact-footer">

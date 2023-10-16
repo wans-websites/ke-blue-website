@@ -52,6 +52,10 @@
 .page-contacts .container .content .right {
   width: 60%;
   height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
 }
 .page-contacts .container .content .right form {
   display: flex;
