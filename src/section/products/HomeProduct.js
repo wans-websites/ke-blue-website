@@ -12,13 +12,13 @@ export default function HomeProduct() {
         <div className="product">
           <div className="product-detail">
             <h3>Ke-blue</h3>
-            <h4>1 litre Ad blue ...</h4>
+            <h4>10 litre Ad blue ...</h4>
           </div>
         </div>
         <div className="product">
           <div className="product-detail">
             <h3>Ke-blue</h3>
-            <h4>2 litres Ad blue ...</h4>
+            <h4>20 litres Ad blue ...</h4>
           </div>
         </div>
       </div>

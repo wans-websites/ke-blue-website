@@ -14,7 +14,7 @@
   justify-content: space-evenly;
 }
 .home-product .product {
-  width: 25vw;
+  width: 30vw;
   height: 60vh;
   background-image: url(../../images/product.jpeg);
   background-position: center;
@@ -102,4 +102,19 @@
   margin-top: 2vh;
   background-color: #78bf54;
   color: #fff;
+}
+
+@media (max-width: 992px) {
+  .home-product {
+    height: auto;
+  }
+  .home-product .products {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-product .products .product {
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
