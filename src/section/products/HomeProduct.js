@@ -30,6 +30,18 @@ export default function HomeProduct() {
       >
         Order Now
       </a>
+      {/* <p style={{ color: "white", marginBottom: "-2vh" }}>
+        Looking to be a certified distributor of Adblue Get in touch with us.
+      </p>
+      <a
+        href={`mailto:${recipientEmail}?subject=Adblue Distributor Certifcation&body=${encodeURIComponent(
+          "Greetings"
+        )}`}
+        className="section-btn"
+        style={{ height: 20, fontSize: 11, width: 80 }}
+      >
+        Get in touch
+      </a> */}
     </section>
   );
 }

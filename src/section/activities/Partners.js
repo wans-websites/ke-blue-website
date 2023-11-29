@@ -1,5 +1,11 @@
 import React from "react";
 import "./Partners.css";
+import FactoryIcon from "@mui/icons-material/Factory";
+import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
+import OnDeviceTrainingIcon from "@mui/icons-material/OnDeviceTraining";
+import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
+import ExpandIcon from "@mui/icons-material/Expand";
+import ReceiptLongIcon from "@mui/icons-material/ReceiptLong";
 
 export default function Partners() {
   return (
@@ -21,29 +27,41 @@ export default function Partners() {
           <div className="packages">
             <div>
               <div className="package">
-                <div className="icon-circle"></div>
+                <div className="icon-circle">
+                  <FactoryIcon className="icon" />
+                </div>
                 <p>Diverse Industry Collaborations</p>
               </div>
               <div className="package">
-                <div className="icon-circle"></div>
+                <div className="icon-circle">
+                  <RemoveRedEyeIcon className="icon" />
+                </div>
                 <p>Shared Environmental Vision</p>
               </div>
               <div className="package">
-                <div className="icon-circle"></div>
+                <div className="icon-circle">
+                  <OnDeviceTrainingIcon className="icon" />
+                </div>
                 <p>Innovation and Progress</p>
               </div>
             </div>
             <div>
               <div className="package">
-                <div className="icon-circle"></div>
+                <div className="icon-circle">
+                  <AccountBalanceIcon className="icon" />
+                </div>
                 <p>Responsibility and Accountability</p>
               </div>
               <div className="package">
-                <div className="icon-circle"></div>
+                <div className="icon-circle">
+                  <ExpandIcon className="icon" />
+                </div>
                 <p>Mutual Growth</p>
               </div>
               <div className="package">
-                <div className="icon-circle"></div>
+                <div className="icon-circle">
+                  <ReceiptLongIcon className="icon" />
+                </div>
                 <p>Long-Term Commitment</p>
               </div>
             </div>

@@ -15,16 +15,17 @@ export default function Whyus() {
               <h2>Your Trusted Partner in Emission Reduction</h2>
             </div>
             <p>
-              At KeBlue ECO Products, our journey has been marked by a steadfast
-              dedication to excellence and an unswerving commitment to building
-              a sustainable future.
+              At KeBlue ECO Products, we proudly stand as the inaugural
+              manufacturers of AdBlue in Kenya. Our commitment to excellence is
+              underscored by being KEBS certified, licensed by the German VDA,
+              and adhering to ISO Standards in the production of AdBlue.
             </p>
             <p>
-              Over the years, we have not merely earned a reputation as the
-              foremost provider of AdBlue solutions in Kenya; we have forged
-              lasting relationships with our valued clients based on trust,
-              quality, and an unwavering passion for environmental
-              responsibility.
+              We have swiftly become the foremost provider of AdBlue solutions
+              in the region, fostering enduring relationships with our valued
+              clients. This foundation is built upon trust, a dedication to
+              quality for diesel vehicles, and an unwavering passion for
+              environmental responsibility
             </p>
             <div className="advantage">
               <div className="icon-div">

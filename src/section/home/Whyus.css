@@ -34,6 +34,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 20px;
 }
 .why-us .container .content .right {
   width: 50%;
@@ -45,6 +46,7 @@
 .why-us .container .content .left .advantage {
   display: flex;
   align-items: center;
+  margin-top: 20px;
 }
 .why-us .container .content .left .advantage .icon-div {
   background-color: #78bf54;

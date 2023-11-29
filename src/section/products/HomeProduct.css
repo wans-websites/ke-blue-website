@@ -1,5 +1,5 @@
 .home-product {
-  height: 80vh;
+  height: auto;
   background: linear-gradient(to bottom, white 50%, #78bf54 50%);
   display: flex;
   justify-content: space-around;
@@ -102,6 +102,7 @@
   margin-top: 2vh;
   background-color: #78bf54;
   color: #fff;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 992px) {

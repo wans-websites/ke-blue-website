@@ -111,7 +111,13 @@
 .page-contacts .contact-footer div:nth-child(4) {
   background-image: url(../../images/producthero.jpeg);
 }
-
+.page-contacts .social-medias p {
+  margin-bottom: 10px;
+}
+.page-contacts .social-medias a {
+  color: #fff;
+  margin-right: 10px;
+}
 @media (max-width: 992px) {
   .page-contacts {
     height: auto;

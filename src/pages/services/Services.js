@@ -22,14 +22,14 @@ export default function Services() {
             <TimeToLeaveIcon className="icon" />
             <div className="title">AdBlue Production and Distribution</div>
             <div className="description">
-              We are the leading producer and distributor of AdBlue in Kenya,
-              ensuring a consistent supply of high-quality emission-reduction
-              solutions to meet your needs.
+              We produce and distribute AdBlue in Kenya, ensuring a consistent
+              supply of high-quality emission-reduction solutions to meet your
+              needs.
             </div>
           </div>
           <div className="service">
             <TimeToLeaveIcon className="icon" />
-            <div className="title">Customized Solutions</div>
+            <div className="title">Personalized Touch</div>
             <div className="description">
               Our services go beyond a one-size-fits-all approach. We offer
               tailored AdBlue solutions to match the specific requirements of

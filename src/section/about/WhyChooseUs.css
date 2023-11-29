@@ -43,9 +43,13 @@
   border-radius: 50%;
   background-color: #78bf54;
   margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .why-choose-us .container .right .packages > div .package .icon-circle .icon {
   width: 20px;
+  color: #fff;
 }
 .why-choose-us .container .right .packages > div .package p {
   text-transform: capitalize;

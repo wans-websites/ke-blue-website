@@ -4,6 +4,10 @@ import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import PageHero from "../../components/PageHero";
 import bgimg from "../../images/truck.jpg";
 import FAQ from "../../section/contacts/FAQ";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import TwitterIcon from "@mui/icons-material/Twitter";
 
 export default function Contacts() {
   const emailBody =
@@ -49,9 +53,22 @@ export default function Contacts() {
                   <p>+254-704-576-165</p>
                 </div>
               </div>
+              <div className="contact">
+                <div className="social-medias">
+                  <p>Social Medias:</p>
+                  <a href="https://www.linkedin.com/company/keblue-eco-products">
+                    <InstagramIcon />
+                  </a>
+                  <a href="https://www.instagram.com/keblue_ecoproducts/">
+                    <TwitterIcon />
+                  </a>
+                  <a href="https://twitter.com/KeBlueEco">
+                    <LinkedInIcon />
+                  </a>
+                </div>
+              </div>
             </div>
             <div className="right">
-              <FAQ />
               <a href={`mailto:${recipientEmail}`} className="section-btn">
                 Email Us
               </a>

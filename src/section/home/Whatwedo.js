@@ -19,8 +19,9 @@ export default function Whatwedo() {
             <div className="description">
               <div className="title">AdBlue Production and Distribution</div>
               <div className="detail">
-                We manufacture high-quality AdBlue solutions that effectively
-                reduce NOx emissions from diesel engines.
+                We manufacture high quality Adblue in compliance with the ISO
+                standards that effectively reduce NOx emissions from diesel
+                engines.
               </div>
             </div>
           </div>
