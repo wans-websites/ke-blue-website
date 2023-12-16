@@ -8,7 +8,7 @@ import Partners from "../../section/activities/Partners";
 export default function Activities() {
   return (
     <div className="activities">
-      <PageHero bgImage={bgimage} title="Activities" subtitle={"Activities"} />
+      <PageHero bgImage={bgimage} title="KeBlue Activities" subtitle={"Activities"} />
       <Activity />
       <Partners />
     </div>

@@ -1,9 +1,6 @@
 import React from "react";
 import "./WhatIsAdblue.css";
-import SailingIcon from "@mui/icons-material/Sailing";
-import FlightTakeoffIcon from "@mui/icons-material/FlightTakeoff";
-import WarehouseIcon from "@mui/icons-material/Warehouse";
-import LocalShippingIcon from "@mui/icons-material/LocalShipping";
+
 
 export default function WhatIsAdblue() {
   return (

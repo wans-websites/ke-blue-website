@@ -11,7 +11,7 @@ export default function Whyus() {
         <div className="content">
           <div className="left">
             <div className="section-tag">
-              <h1>Why us</h1>
+              <h1>Why Keblue</h1>
               <h2>Your Trusted Partner in Emission Reduction</h2>
             </div>
             <p>

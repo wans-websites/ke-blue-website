@@ -8,7 +8,7 @@ export default function AboutUs() {
         <div className="left"></div>
         <div className="right">
           <div className="section-tag">
-            <h1>About us</h1>
+            <h1>About KeBlue</h1>
             <h2>Driving Sustainable Solutions with KeBlue ECO Products</h2>
           </div>
           <p>

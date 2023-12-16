@@ -3,15 +3,11 @@ import "./Contacts.css";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import PageHero from "../../components/PageHero";
 import bgimg from "../../images/truck.jpg";
-import FAQ from "../../section/contacts/FAQ";
-import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 
 export default function Contacts() {
-  const emailBody =
-    "Dear Ke-blue\n\nI am <Your Full Name>, and I am interested in placing an order for <no. of bottles> bottles of <bottle size>-liter AdBlue. My current location is <building/estate>,<road>, <location>, <county>, <country>. You can reach me via phone at <include country code> or by email at <your email>.\n\nWarm regards.";
   const recipientEmail = "info@ke-blue.com";
 
   return (
@@ -40,7 +36,7 @@ export default function Contacts() {
                 </div>
                 <div>
                   <p>Email:</p>
-                  <p>info@ke-blue.com</p>
+                  <p>info@keblue-ecoproducts.com</p>
                 </div>
               </div>
               <div className="contact">

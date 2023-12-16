@@ -14,8 +14,8 @@ export default function WhyChooseUs() {
         <div className="image"></div>
         <div className="right">
           <div className="section-tag">
-            <h1>Why Choose Us</h1>
-            <h2>Elevating Your Commitment to Sustainability</h2>
+            <h1>Why Choose KeBlue</h1>
+            <h2>Elevating Your Commitment to Sustainability.</h2>
           </div>
           <p>
             When it comes to reducing emissions and embracing eco-conscious

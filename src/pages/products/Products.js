@@ -7,7 +7,7 @@ import bgimage from "../../images/producthero.jpeg";
 export default function Products() {
   return (
     <div className="products">
-      <PageHero title={"Product"} subtitle={"Ke-Blue"} bgImage={bgimage} />
+      <PageHero title={"KeBlue Products"} subtitle={"Ke-Blue"} bgImage={bgimage} />
       <HomeProduct />
     </div>
   );

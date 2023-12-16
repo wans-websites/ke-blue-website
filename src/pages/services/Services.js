@@ -8,19 +8,19 @@ export default function Services() {
   return (
     <div className="services">
       <PageHero
-        title={"What We Do"}
+        title={"What KeBlue Does"}
         subtitle={"Our Services"}
         bgImage={bgimg}
       />
       <div className="container">
         <div className="section-tag">
-          <h1>What We Do</h1>
+          <h1>What Keblue Does</h1>
           <h2>Our Services</h2>
         </div>
         <div className="content">
           <div className="service">
             <TimeToLeaveIcon className="icon" />
-            <div className="title">AdBlue Production and Distribution</div>
+            <div className="title">AdBlue Production and Distribution.</div>
             <div className="description">
               We produce and distribute AdBlue in Kenya, ensuring a consistent
               supply of high-quality emission-reduction solutions to meet your

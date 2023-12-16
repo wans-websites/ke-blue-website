@@ -8,7 +8,7 @@ export default function Activity() {
         <div className="left"></div>
         <div className="right">
           <div className="section-tag">
-            <h1>Activities</h1>
+            <h1>KeBlue Activities</h1>
             <h2>Strengthening Bonds and Building Memories</h2>
           </div>
           <p>
